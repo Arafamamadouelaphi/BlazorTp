@@ -40,7 +40,7 @@ steps:
   - name: docker-build
     image: plugins/docker
     settings:
-      dockerfile: /Dockerfile
+      dockerfile: "TP Blazor"/Dockerfile
       context: .
       registry: hub.codefirst.iut.uca.fr
       repo: hub.codefirst.iut.uca.fr/my-group/my-application-client
