@@ -59,6 +59,21 @@ steps:
       branch:
         - master
     depends_on: [ build ]
+    
+  - name: docker-build
+    image: plugins/docker
+    settings:
+      dockerfile: Sources/Dockerfile
+      context: .
+      registry: hub.codefirst.iut.uca.fr
+      repo: hub.codefirst.iut.uca.fr/my-group/my-application-client
+      username:
+        from_secret: SECRET_REGISTRY_USERNAME
+      password:
+        from_secret: SECRET_REGISTRY_PASSWORD
+    when:
+      branch:
+        - master
 
 volumes:
   - name: docs
