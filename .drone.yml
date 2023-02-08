@@ -43,7 +43,7 @@ steps:
       dockerfile: TP Blazor/Dockerfile
       context: .
       registry: hub.codefirst.iut.uca.fr
-      repo: hub.codefirst.iut.uca.fr/my-group/my-application-client
+      repo: hub.codefirst.iut.uca.fr/vpngounou/tp-blazor
       username:
         from_secret: SECRET_REGISTRY_USERNAME
       password:
