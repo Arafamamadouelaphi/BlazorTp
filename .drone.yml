@@ -13,9 +13,9 @@ steps:
       - name: docs
         path: /docs
     commands:
-      - dotnet restore [TP Blazor].sln
-      - dotnet build [TP Blazor].sln -c Release --no-restore
-      - dotnet publish [TP Blazor].sln -c Release --no-restore -o CI_PROJECT_DIR/build/release
+      - dotnet restore "TP Blazor".sln
+      - dotnet build "TP Blazor".sln -c Release --no-restore
+      - dotnet publish "TP Blazor".sln -c Release --no-restore -o CI_PROJECT_DIR/build/release
 
   - name: tests
     image: mcr.microsoft.com/dotnet/sdk:5.0
