@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace TP_Blazor.Controllers;
 
-[Route("[controller]/[action]")]
+[Microsoft.AspNetCore.Mvc.Route("[controller]/[action]")]
 public class CultureController:Controller
 {
     public IActionResult SetCulture(string culture, string returnUrl)

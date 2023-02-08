@@ -1,3 +1,4 @@
+using TP_Blazor.Components;
 using TP_Blazor.Models;
 
 namespace TP_Blazor.Services;
@@ -10,4 +11,5 @@ public interface IDataService
     Task<Item> GetById(int id);
     Task Update(int id,ItemModel item);
     Task Delete(int id);
+    Task<List<CraftingRecipe>> GetRecipes();
 }

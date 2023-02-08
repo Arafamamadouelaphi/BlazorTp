@@ -1,5 +1,6 @@
 using Blazored.LocalStorage;
 using Microsoft.AspNetCore.Components;
+using TP_Blazor.Components;
 using TP_Blazor.Factories;
 using TP_Blazor.Models;
 
@@ -37,7 +38,7 @@ public class DataLocalService:IDataService
         // });
         currentItems.Add(ItemFactory.Create(item));
         
-        var imagePathsInfo = new DirectoryInfo(Path.Combine($"{_webHostEnvironment.ContentRootPath}/images"));
+        var imagePathsInfo = new DirectoryInfo(Path.Combine($"{_webHostEnvironment.WebRootPath}/images"));
         if (!imagePathsInfo.Exists)
         {
             imagePathsInfo.Create();
@@ -90,7 +91,7 @@ public class DataLocalService:IDataService
         {
             throw new Exception($"Item with id {id} not found");
         }
-        var imagePathsInfo = new DirectoryInfo($"{_webHostEnvironment.ContentRootPath}/images");
+        var imagePathsInfo = new DirectoryInfo($"{_webHostEnvironment.WebRootPath}/images");
         if (!imagePathsInfo.Exists)
         {
             imagePathsInfo.Create();
@@ -123,12 +124,31 @@ public class DataLocalService:IDataService
         var currentItems =await _localStorageService.GetItemAsync<List<Item>>("data");
         var itemToDelete = currentItems.FirstOrDefault(s => s.Id == id);
         currentItems.Remove(itemToDelete);
-        var imagePathsInfo = new DirectoryInfo($"{_webHostEnvironment.ContentRootPath}/images");
+        var imagePathsInfo = new DirectoryInfo($"{_webHostEnvironment.WebRootPath}/images");
         var fileName = new FileInfo($"{imagePathsInfo}/{itemToDelete.Name}.png");
         if (fileName.Exists)
         {
             File.Delete(fileName.FullName);
         }
         await _localStorageService.SetItemAsync("data", currentItems);
+    }
+
+    public Task<List<CraftingRecipe>> GetRecipes()
+    {
+        var items = new List<CraftingRecipe>
+        {
+            new CraftingRecipe
+            {
+                Give = new Item { DisplayName = "Diamond", Name = "diamond" },
+                Have = new List<List<string>>
+                {
+                    new List<string> { "dirt", "dirt", "dirt" },
+                    new List<string> { "dirt", null, "dirt" },
+                    new List<string> { "dirt", "dirt", "dirt" }
+                }
+            }
+        };
+
+        return Task.FromResult(items);
     }
 }
