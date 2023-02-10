@@ -18,7 +18,7 @@ steps:
       - dotnet publish "TP Blazor".sln -c Release --no-restore -o CI_PROJECT_DIR/build/release
 
   - name: code-analysis
-    image: pubhub.codefirst.ddns.net/thbellem/codefirst-dronesonarplugin-dotnet5
+    image: hub.codefirst.iut.uca.fr/thomas.bellembois/codefirst-dronesonarplugin-dotnet6
     commands:
       - dotnet restore "TP Blazor".sln
       - dotnet sonarscanner begin /k:TestTemplate /d:sonar.host.url=$${PLUGIN_SONAR_HOST} /d:sonar.coverageReportPaths="coveragereport/SonarQube.xml" /d:sonar.coverage.exclusions="Tests/**" /d:sonar.login=$${PLUGIN_SONAR_TOKEN}
@@ -35,6 +35,21 @@ steps:
       sonar_token:
         from_secret: SECRET_SONAR_LOGIN
     depends_on: [build]
+    
+  - name: generate-and-deploy-docs
+    image: hub.codefirst.iut.uca.fr/thomas.bellembois/codefirst-docdeployer
+    failure: ignore
+    volumes:
+      - name: docs
+        path: /docs
+    commands:
+      - cd Documentation/doxygen
+      - doxygen Doxyfile
+      - /entrypoint.sh
+    when:
+      branch:
+        - master
+    depends_on: [ build ]
 
     
   - name: docker-build
