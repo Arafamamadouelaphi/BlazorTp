@@ -40,7 +40,7 @@ steps:
     image: hub.codefirst.iut.uca.fr/thomas.bellembois/codefirst-dronesonarplugin-dotnet6
     commands:
       - dotnet restore "TP Blazor".sln
-      - dotnet sonarscanner begin /k:"TP Blazor" /d:sonar.host.url=$${PLUGIN_SONAR_HOST} /d:sonar.coverageReportPaths="coveragereport/SonarQube.xml" /d:sonar.coverage.exclusions="Tests/**,BowlingApp/** /d:sonar.login=$${PLUGIN_SONAR_TOKEN}
+      - dotnet sonarscanner begin /k:"TP Blazor" /d:sonar.host.url=$${PLUGIN_SONAR_HOST} /d:sonar.coverageReportPaths="coveragereport/SonarQube.xml" /d:sonar.coverage.exclusions="Tests/** /d:sonar.login=$${PLUGIN_SONAR_TOKEN}
       - dotnet build "TP Blazor".sln -c Release --no-restore
       - dotnet test "TP Blazor".sln --logger trx --no-restore /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura --collect "XPlat Code Coverage"
       - reportgenerator -reports:"**/coverage.cobertura.xml" -reporttypes:SonarQube -targetdir:"coveragereport"
