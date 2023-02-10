@@ -39,7 +39,6 @@ steps:
   - name: analysis
     image: hub.codefirst.iut.uca.fr/thomas.bellembois/codefirst-dronesonarplugin-dotnet6
     commands:
-      - cd Sources/
       - dotnet restore "TP Blazor".sln
       - dotnet sonarscanner begin /k:"TP Blazor" /d:sonar.host.url=$${PLUGIN_SONAR_HOST} /d:sonar.coverageReportPaths="coveragereport/SonarQube.xml" /d:sonar.coverage.exclusions="Tests/**,BowlingApp/** /d:sonar.login=$${PLUGIN_SONAR_TOKEN}
       - dotnet build "TP Blazor".sln -c Release --no-restore
