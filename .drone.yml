@@ -48,6 +48,18 @@ steps:
       branch:
         - master
     depends_on: [ build ]
+    
+  - name: deploy-container
+    image: hub.codefirst.iut.uca.fr/thomas.bellembois/codefirst-dockerproxy-clientdrone:latest
+    environment:
+      IMAGENAME: hub.codefirst.iut.uca.fr/victor_perez.ngounou/tp_blazor:latest
+      CONTAINERNAME: tp_blazor
+      COMMAND: create
+      OVERWRITE: true
+    depends_on: [ docker-build ]
+    when:
+      branch:
+        - master
  
 
 volumes:
