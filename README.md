@@ -1,7 +1,7 @@
 # Projet Blazor
 
 
-Projet dont l'énoncé est disponible sur le lien suivant: https://codefirst.iut.uca.fr/documentation/julien.riboulet/docusaurus/Blazor/fr/your-next-steps/
+Projet dont l'énoncé est disponible sur le lien suivant: https://codefirst.iut.uca.fr/documentation/julien.riboulet/docusaurus/Blazor/fr/
 Tuto pour lancer le projet
 
 Le projet est disponible sur la branche principale.
