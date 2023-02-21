@@ -10,5 +10,7 @@ Afin de pouvoir utiliser notre solution il vous faudra une fois cloner parametre
 
 1. Cliquez droit sur la solution 'BlazorApp'
 2. Proriétés
+
 ![Image clique droit](/Documentation/doc_images/bowling-157933.png)
+
 3. Il vous faut maintenant définir l'action des 2 solutions sur 'Démarrage'
