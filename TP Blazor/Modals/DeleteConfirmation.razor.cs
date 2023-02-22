@@ -21,7 +21,7 @@ public partial class DeleteConfirmation
 
     protected override async Task OnInitializedAsync()
     {
-        // Get the item
+        // Get  item
         item = await DataService.GetById(Id);
     }
 
