@@ -49,12 +49,11 @@ public partial class List
         {
             return;
         }
-        //var response = (await HttpClient.GetFromJsonAsync<Item[]>($"{NavigationManager.BaseUri}fake-data.json")).Skip((e.Page - 1) * e.PageSize).Take(e.PageSize).ToList();
+        
 
         if (!e.CancellationToken.IsCancellationRequested)
         {
-            //totalItem = (await HttpClient.GetFromJsonAsync<List<Item>>($"{NavigationManager.BaseUri}fake-data.json")).Count;
-            //items = new List<Item>(response); // an actual data for the current page
+           
             items = await DataService.List(e.Page, e.PageSize);
             totalItem = await DataService.Count();
         }
