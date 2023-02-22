@@ -20,3 +20,5 @@ Afin de pouvoir utiliser notre solution il vous faudra une fois cloner parametre
 4. Pour finir démarrer le projet avec le bouton 'Démarrer'
 
 ![Image clique droit](/Documentation/doc_images/casutilisation.PNG)
+
+Afin de nous faciliter le développement, nous avons créé de branches ,nous travaillons sur le depot du TP de victor.
