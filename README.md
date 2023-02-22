@@ -16,3 +16,7 @@ Afin de pouvoir utiliser notre solution il vous faudra une fois cloner parametre
 3. Il vous faut maintenant définir l'action des 2 solutions sur 'Démarrage'
 
 ![Image clique droit](/Documentation/doc_images/CodeFirst.png)
+
+4. Pour finir démarrer le porjet avec le bouton 'Démarrer'
+
+![Image clique droit]
