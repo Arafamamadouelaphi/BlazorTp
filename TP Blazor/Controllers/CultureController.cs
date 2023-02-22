@@ -6,14 +6,28 @@ namespace TP_Blazor.Controllers;
 [Microsoft.AspNetCore.Mvc.Route("[controller]/[action]")]
 public class CultureController:Controller
 {
-    public IActionResult SetCulture(string culture, string returnUrl)
-    {
-        if(culture != null)
+   
+        /// <summary>
+        /// Sets the culture.
+        /// </summary>
+        /// <param name="culture">The culture.</param>
+        /// <param name="redirectUri">The redirect URI.</param>
+        /// <returns>
+        /// The action result.
+        /// </returns>
+        public IActionResult SetCulture(string culture, string redirectUri)
         {
-            this.HttpContext.Response.Cookies.Append(
-                CookieRequestCultureProvider.DefaultCookieName,
-                CookieRequestCultureProvider.MakeCookieValue(new RequestCulture(culture)));
+            if (culture != null)
+            {
+                // Define a cookie with the selected culture
+                this.HttpContext.Response.Cookies.Append(
+                    CookieRequestCultureProvider.DefaultCookieName,
+                    CookieRequestCultureProvider.MakeCookieValue(
+                        new RequestCulture(culture)));
+            }
+
+            return this.LocalRedirect(redirectUri);
         }
-        return this.LocalRedirect(returnUrl);
     }
-}
+
+
