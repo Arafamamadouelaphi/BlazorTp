@@ -11,15 +11,15 @@ Afin de pouvoir utiliser notre solution il vous faudra une fois cloner parametre
 1. Cliquez droit sur la solution 'BlazorApp'
 2. Proriétés
 
-![Image clique droit](/Documentation 20.19.48/doc_images/bowling-157933.png)
+![Image clique droit](/Documentation/doc_images/bowling-157933.png)
 
 3. Il vous faut maintenant définir l'action des 2 solutions sur 'Démarrage'
 
-![Image clique droit](/Documentation 20.19.48/doc_images/CodeFirst.png)
+![Image clique droit](/Documentation/doc_images/CodeFirst.png)
 
 4. Pour finir démarrer le projet avec le bouton 'Démarrer'
 
-![Image clique droit](/Documentation 20.19.48/doc_images/casutilisation.PNG)
+![Image clique droit](/Documentation/doc_images/casutilisation.PNG)
 
 Auteur:Arafa, victor
 
