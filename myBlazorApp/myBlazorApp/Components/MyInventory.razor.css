@@ -1,0 +1,23 @@
+﻿.body {
+    display: flex;
+    width: 100%;
+}
+
+.inventory {
+    align-items: flex-start;
+    justify-content: start;
+    width: 45%;
+    margin-right: 5%;
+}
+
+.ItemList {
+    align-content: flex-end;
+    justify-content: start;
+    width: 45%;
+}
+
+.inventory-items {
+    grid-template-columns: repeat(6,minmax(0,1fr));
+    gap: 5px;
+    display: grid;
+}

@@ -1,0 +1,378 @@
+﻿  [
+    {
+      "id": 1,
+      "displayname": "Norsul",
+      "name": "norsul",
+      "stacksize": 28,
+      "maxdurability": 41,
+      "enchantcategories": [
+        "digger",
+        "armor_head",
+        "armor"
+      ],
+      "repairwith": [],
+      "createddate": "2019-02-09",
+      "updateddate": null
+    },
+    {
+      "id": 2,
+      "displayname": "Orboid",
+      "name": "orboid",
+      "stacksize": 34,
+      "maxdurability": 60,
+      "enchantcategories": [
+        "armor_head"
+      ],
+      "repairwith": [
+        "crimson_planks",
+        "crimson_planks"
+      ],
+      "createddate": "2022-08-22",
+      "updateddate": "2017-09-26"
+    },
+    {
+      "id": 3,
+      "displayname": "Frosnex",
+      "name": "frosnex",
+      "stacksize": 1,
+      "maxdurability": 115,
+      "enchantcategories": [],
+      "repairwith": [
+        "birch_planks"
+      ],
+      "createddate": "2019-01-21",
+      "updateddate": null
+    },
+    {
+      "id": 4,
+      "displayname": "Lingoage",
+      "name": "lingoage",
+      "stacksize": 30,
+      "maxdurability": 6,
+      "enchantcategories": [
+        "vanishable",
+        "armor_chest"
+      ],
+      "repairwith": [
+        "birch_planks"
+      ],
+      "createddate": "2022-05-21",
+      "updateddate": "2019-04-30"
+    },
+    {
+      "id": 5,
+      "displayname": "Xsports",
+      "name": "xsports",
+      "stacksize": 7,
+      "maxdurability": 60,
+      "enchantcategories": [
+        "armor_chest",
+        "digger"
+      ],
+      "repairwith": [],
+      "createddate": "2019-09-07",
+      "updateddate": "2015-05-05"
+    },
+    {
+      "id": 6,
+      "displayname": "Tellifly",
+      "name": "tellifly",
+      "stacksize": 5,
+      "maxdurability": 25,
+      "enchantcategories": [
+        "digger"
+      ],
+      "repairwith": [
+        "oak_planks"
+      ],
+      "createddate": "2015-04-07",
+      "updateddate": null
+    },
+    {
+      "id": 7,
+      "displayname": "Ecratic",
+      "name": "ecratic",
+      "stacksize": 7,
+      "maxdurability": 4,
+      "enchantcategories": [
+        "armor_chest",
+        "vanishable",
+        "vanishable"
+      ],
+      "repairwith": [
+        "crimson_planks"
+      ],
+      "createddate": "2014-09-18",
+      "updateddate": null
+    },
+    {
+      "id": 8,
+      "displayname": "Rugstars",
+      "name": "rugstars",
+      "stacksize": 63,
+      "maxdurability": 107,
+      "enchantcategories": [
+        "weapon"
+      ],
+      "repairwith": [
+        "dark_oak_planks",
+        "jungle_planks"
+      ],
+      "createddate": "2018-08-11",
+      "updateddate": "2020-10-23"
+    },
+    {
+      "id": 9,
+      "displayname": "Musanpoly",
+      "name": "musanpoly",
+      "stacksize": 56,
+      "maxdurability": 44,
+      "enchantcategories": [
+        "armor"
+      ],
+      "repairwith": [
+        "spruce_planks"
+      ],
+      "createddate": "2015-09-16",
+      "updateddate": "2017-07-25"
+    },
+    {
+      "id": 10,
+      "displayname": "Anacho",
+      "name": "anacho",
+      "stacksize": 57,
+      "maxdurability": 29,
+      "enchantcategories": [
+        "armor"
+      ],
+      "repairwith": [],
+      "createddate": "2017-03-04",
+      "updateddate": null
+    },
+    {
+      "id": 11,
+      "displayname": "Roboid",
+      "name": "roboid",
+      "stacksize": 32,
+      "maxdurability": 75,
+      "enchantcategories": [
+        "armor"
+      ],
+      "repairwith": [
+        "birch_planks",
+        "oak_planks"
+      ],
+      "createddate": "2022-08-01",
+      "updateddate": null
+    },
+    {
+      "id": 12,
+      "displayname": "Earthmark",
+      "name": "earthmark",
+      "stacksize": 48,
+      "maxdurability": 16,
+      "enchantcategories": [
+        "digger",
+        "breakable",
+        "breakable"
+      ],
+      "repairwith": [
+        "birch_planks",
+        "warped_planks"
+      ],
+      "createddate": "2020-02-08",
+      "updateddate": "2020-10-29"
+    },
+    {
+      "id": 13,
+      "displayname": "Interfind",
+      "name": "interfind",
+      "stacksize": 40,
+      "maxdurability": 120,
+      "enchantcategories": [
+        "vanishable",
+        "armor_chest",
+        "digger"
+      ],
+      "repairwith": [
+        "jungle_planks"
+      ],
+      "createddate": "2022-05-08",
+      "updateddate": null
+    },
+    {
+      "id": 14,
+      "displayname": "Exodoc",
+      "name": "exodoc",
+      "stacksize": 20,
+      "maxdurability": 10,
+      "enchantcategories": [
+        "armor_chest",
+        "vanishable",
+        "armor_head"
+      ],
+      "repairwith": [],
+      "createddate": "2018-03-15",
+      "updateddate": null
+    },
+    {
+      "id": 15,
+      "displayname": "Exoblue",
+      "name": "exoblue",
+      "stacksize": 38,
+      "maxdurability": 92,
+      "enchantcategories": [
+        "armor",
+        "weapon",
+        "digger"
+      ],
+      "repairwith": [],
+      "createddate": "2022-02-05",
+      "updateddate": "2020-08-01"
+    },
+    {
+      "id": 16,
+      "displayname": "Baluba",
+      "name": "baluba",
+      "stacksize": 49,
+      "maxdurability": 36,
+      "enchantcategories": [
+        "armor_chest",
+        "breakable"
+      ],
+      "repairwith": [
+        "oak_planks"
+      ],
+      "createddate": "2022-07-19",
+      "updateddate": "2014-12-30"
+    },
+    {
+      "id": 17,
+      "displayname": "Vantage",
+      "name": "vantage",
+      "stacksize": 40,
+      "maxdurability": 85,
+      "enchantcategories": [
+        "armor"
+      ],
+      "repairwith": [],
+      "createddate": "2019-12-01",
+      "updateddate": null
+    },
+    {
+      "id": 18,
+      "displayname": "Tribalog",
+      "name": "tribalog",
+      "stacksize": 60,
+      "maxdurability": 83,
+      "enchantcategories": [],
+      "repairwith": [],
+      "createddate": "2022-10-17",
+      "updateddate": "2016-06-06"
+    },
+    {
+      "id": 19,
+      "displayname": "Digirang",
+      "name": "digirang",
+      "stacksize": 53,
+      "maxdurability": 123,
+      "enchantcategories": [
+        "armor_head",
+        "armor_chest",
+        "armor_chest"
+      ],
+      "repairwith": [
+        "oak_planks"
+      ],
+      "createddate": "2015-01-02",
+      "updateddate": "2021-09-26"
+    },
+    {
+      "id": 20,
+      "displayname": "Anarco",
+      "name": "anarco",
+      "stacksize": 6,
+      "maxdurability": 21,
+      "enchantcategories": [
+        "vanishable",
+        "vanishable"
+      ],
+      "repairwith": [
+        "oak_planks",
+        "birch_planks"
+      ],
+      "createddate": "2015-06-09",
+      "updateddate": null
+    },
+    {
+      "id": 21,
+      "displayname": "Portico",
+      "name": "portico",
+      "stacksize": 29,
+      "maxdurability": 22,
+      "enchantcategories": [
+        "armor",
+        "armor"
+      ],
+      "repairwith": [],
+      "createddate": "2016-04-06",
+      "updateddate": null
+    },
+    {
+      "id": 22,
+      "displayname": "Keeg",
+      "name": "keeg",
+      "stacksize": 31,
+      "maxdurability": 98,
+      "enchantcategories": [
+        "breakable"
+      ],
+      "repairwith": [
+        "dark_oak_planks",
+        "jungle_planks"
+      ],
+      "createddate": "2020-01-25",
+      "updateddate": "2015-10-31"
+    },
+    {
+      "id": 23,
+      "displayname": "Darwinium",
+      "name": "darwinium",
+      "stacksize": 17,
+      "maxdurability": 78,
+      "enchantcategories": [],
+      "repairwith": [],
+      "createddate": "2018-09-19",
+      "updateddate": "2020-12-01"
+    },
+    {
+      "id": 24,
+      "displayname": "Kage",
+      "name": "kage",
+      "stacksize": 64,
+      "maxdurability": 121,
+      "enchantcategories": [
+        "weapon",
+        "armor_chest",
+        "breakable"
+      ],
+      "repairwith": [],
+      "createddate": "2019-04-24",
+      "updateddate": null
+    },
+    {
+      "id": 25,
+      "displayname": "Genesynk",
+      "name": "genesynk",
+      "stacksize": 50,
+      "maxdurability": 110,
+      "enchantcategories": [
+        "armor",
+        "digger"
+      ],
+      "repairwith": [],
+      "createddate": "2017-09-25",
+      "updateddate": "2018-09-03"
+    }
+  ]
+

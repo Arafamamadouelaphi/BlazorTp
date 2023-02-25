@@ -1,0 +1,43 @@
+﻿@using myBlazorApp.Models
+@using myBlazorApp.Components
+
+<CascadingValue Value="@this">
+    <div class="body">
+        <div class="inventory">
+            <h3>@Localizer["Inventory"]</h3>
+            <div class="inventory-items">
+                @foreach (InventoryListItem i in ItemsInventory)
+                {
+                    <InventoryItem Index="@i.position" Item="@i.itemName" Number="@i.number" StackSize="@i.stackSize" />
+                }
+            </div>
+        </div>
+
+        <div id="ItemList" class="align-end">
+            <h3>@Localizer["List"]</h3>
+
+            <input type="text" @bind-value="@SearchText"
+                   @bind-value:event="oninput" placeholder="Search by Name"
+                   @onchange="@inputValue" />
+
+            <button type="button" @onclick="@OnPress">@Localizer["Sort"]</button>
+
+            <DataGrid TItem="Item"
+                      Data="@choix"
+                      ReadData="@OnReadData"
+                      TotalItems="@totalItem"
+                      PageSize="10"
+                      ShowPager
+                      Responsive>
+                <DataGridColumn Field="@nameof(Item.Id)">
+                    <DisplayTemplate>
+                        <InventoryItem Item="@context.DisplayName" NoDrop="true" Number=1 StackSize="@context.StackSize" Image="@context.ImageBase64" />
+                    </DisplayTemplate>
+                </DataGridColumn>
+                <DataGridColumn TItem="Item" Field="@nameof(Item.DisplayName)" />
+            </DataGrid>
+        </div>
+    </div>
+</CascadingValue>
+
+

@@ -1,0 +1,36 @@
+﻿
+<div class="inventory-item"
+     ondragover="event.preventDefault();"
+     draggable="true"
+     @ondragstart="@OnDragStart"
+     @ondrop="@OnDrop"
+     @ondragend="@OnDragEnd"
+     @ondragenter="@OnDragEnter"
+     @ondragleave="@OnDragLeave">
+    @if (NoDrop == true)
+    {
+        @if (!string.IsNullOrWhiteSpace(@Image))
+        {
+            <img src="data:image/png;base64, @(Image)" class="img-thumbnail" title="@Item" alt="@Item" style="width: 64px" />
+        }
+        else
+        {
+            <img src="images/default.png" class="img-thumbnail" title="@Item" alt="@Item" style="max-width: 150px" />
+        }
+    }
+    else
+    {
+        @if (Item != "null")
+        {
+            <label id="name">@Item</label>
+            <label id="number">@Number</label>
+            <label id="stackSize">@StackSize</label>
+        }
+        else
+        {
+            <p id="vide">@Localizer["emptyElement"]</p>
+        }
+    }
+
+</div>
+
