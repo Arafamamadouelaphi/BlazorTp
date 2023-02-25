@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "myBlazorApp", "myBlazorApp\myBlazorApp.csproj", "{B9317D91-B843-4D1A-A34F-AB423CA49376}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minecraft.Crafting.Api", "Minecraft.Crafting.Api\Minecraft.Crafting.Api.csproj", "{2CBB101E-B0BD-4637-AD7C-779FBA91E87B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9317D91-B843-4D1A-A34F-AB423CA49376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9317D91-B843-4D1A-A34F-AB423CA49376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9317D91-B843-4D1A-A34F-AB423CA49376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9317D91-B843-4D1A-A34F-AB423CA49376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CBB101E-B0BD-4637-AD7C-779FBA91E87B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CBB101E-B0BD-4637-AD7C-779FBA91E87B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CBB101E-B0BD-4637-AD7C-779FBA91E87B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CBB101E-B0BD-4637-AD7C-779FBA91E87B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0549992E-0EC6-4023-91D8-3C49EC1E96BC}
+	EndGlobalSection
+EndGlobal

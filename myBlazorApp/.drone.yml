@@ -1,0 +1,21 @@
+kind: pipeline
+type: docker
+name: BlazorProject
+
+steps:
+  - name: generate-documentation
+	image: hub.codefirst.iut.uca.fr/thomas.bellembois/codefirst-docdeployer
+	failure: ignore
+	volumes:
+	  - name: docs
+	    path: /docs
+	commands: 
+      - /entrypoint.sh
+	when:
+	  branch:
+	    - master
+
+
+volumes:
+- name: docs
+  temp: {}

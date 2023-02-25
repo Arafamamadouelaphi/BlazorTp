@@ -1,0 +1,76 @@
+[
+  {
+    "itemName": "Grass Block",
+    "position": 1,
+    "number": 1,
+    "stackSize": 64
+  },
+  {
+    "itemName": "null",
+    "position": 2
+  },
+  {
+    "itemName": "null",
+    "position": 3
+  },
+  {
+    "itemName": "null",
+    "position": 4
+  },
+  {
+    "itemName": "null",
+    "position": 5
+  },
+  {
+    "itemName": "null",
+    "position": 6
+  },
+  {
+    "itemName": "null",
+    "position": 7
+  },
+  {
+    "itemName": "null",
+    "position": 8
+  },
+  {
+    "itemName": "null",
+    "position": 9
+  },
+  {
+    "itemName": "null",
+    "position": 10
+  },
+  {
+    "itemName": "null",
+    "position": 11
+  },
+  {
+    "itemName": "null",
+    "position": 12
+  },
+  {
+    "itemName": "null",
+    "position": 13
+  },
+  {
+    "itemName": "null",
+    "position": 14
+  },
+  {
+    "itemName": "null",
+    "position": 15
+  },
+  {
+    "itemName": "null",
+    "position": 16
+  },
+  {
+    "itemName": "null",
+    "position": 17
+  },
+  {
+    "itemName": "null",
+    "position": 18
+  }
+]
