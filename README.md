@@ -21,6 +21,6 @@ Afin de pouvoir utiliser notre solution il vous faudra une fois cloner parametre
 
 ![Image clique droit](/Documentation/doc_images/casutilisation.PNG)
 
-Auteur:Arafa, victor
+Auteur:Arafa(etudiant), victor
 
 Afin de nous faciliter le développement, nous avons créé de branches ,nous travaillons sur le depot du TP de victor.
