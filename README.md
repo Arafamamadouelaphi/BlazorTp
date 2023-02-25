@@ -1,10 +1,25 @@
 # Projet Blazor
 
+Mockup
+Dans cette partie, nous devions réaliser une page qui comportes 2 éléments :
+
+    Une grille d'inventaire
+    Une liste d'Item
+
+La grille d'inventaire
+
+Cette grille comporte différentes spécificitées, comme par exemple ajouter un Item d'une certaine façon ou encore le supprimer lorsque l'élément sort de l'inventaire.
+La liste des éléments
+
+Cette liste nous permet de répertorier les éléments disponibles afin de les placer dans notre inventaire. Afin que la recherche des éléments soit facilités, une fonctionnalité de recherchedes éléments étaient demandés ainsi qu'un filtrage par leur nom.
+
 
 Projet dont l'énoncé est disponible sur le lien suivant: https://codefirst.iut.uca.fr/documentation/julien.riboulet/docusaurus/Blazor/fr/
 Tuto pour lancer le projet
 
 Le projet est disponible sur la branche principale.
+
+Ouverture et lancement
 
 Afin de pouvoir utiliser notre solution il vous faudra une fois cloner parametrer le lancement de notre projet et de l'api. Pour ce faire:
 
