@@ -6,12 +6,16 @@
     "stackSize": 64
   },
   {
-    "itemName": "null",
-    "position": 2
+    "itemName": "Sapling",
+    "position": 2,
+    "number": 1,
+    "stackSize": 64
   },
   {
-    "itemName": "null",
-    "position": 3
+    "itemName": "Sand",
+    "position": 3,
+    "number": 1,
+    "stackSize": 64
   },
   {
     "itemName": "null",
@@ -38,8 +42,10 @@
     "position": 9
   },
   {
-    "itemName": "null",
-    "position": 10
+    "itemName": "Bedrock",
+    "position": 10,
+    "number": 1,
+    "stackSize": 64
   },
   {
     "itemName": "null",
