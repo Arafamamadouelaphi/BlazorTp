@@ -38,4 +38,4 @@ Afin de pouvoir utiliser notre solution il vous faudra une fois cloner parametre
 
 Auteur:Arafa(etudiant), victor
 
-Afin de nous faciliter le développement, nous avons créé de branches ,nous travaillons sur le depot du TP de victor.le projet final se trouve sur la branche master
+projet final se trouve sur la branche master
