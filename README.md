@@ -23,7 +23,7 @@ Ouverture et lancement
 
 Afin de pouvoir utiliser notre solution il vous faudra une fois cloner parametrer le lancement de notre projet et de l'api. Pour ce faire:
 
-1. Cliquez droit sur la solution 'BlazorApp'
+1. Cliquez droit sur la solution 'myBlazorApp'
 2. Proriétés
 
 ![Image clique droit](/Documentation/doc_images/bowling-157933.png)
