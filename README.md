@@ -14,7 +14,6 @@ La liste des éléments
 Cette liste nous permet de répertorier les éléments disponibles afin de les placer dans notre inventaire. Afin que la recherche des éléments soit facilités, une fonctionnalité de recherchedes éléments étaient demandés ainsi qu'un filtrage par leur nom.
 
 
-Projet dont l'énoncé est disponible sur le lien suivant: https://codefirst.iut.uca.fr/documentation/julien.riboulet/docusaurus/Blazor/fr/
 Tuto pour lancer le projet
 
 Le projet est disponible sur la branche principale.
