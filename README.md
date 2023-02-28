@@ -1,7 +1,7 @@
 # Projet Blazor
 
 Mockup
-Dans cette partie, nous devions réaliser une page qui comportes 2 éléments :
+La réalisation d'une page qui comportes les elements suivant est demandée:
 
     Une grille d'inventaire
     Une liste d'Item
